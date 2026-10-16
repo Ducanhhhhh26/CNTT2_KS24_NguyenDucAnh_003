@@ -19,7 +19,6 @@ Trình duyệt ── http://<IP_máy_chủ>:<APP_PORT>
 
 Đổi tên thư mục/repository thành `devops-final-de003-<họ-tên>` (ví dụ `devops-final-de003-nguyenvana`).
 Dấu ★ là phần sinh viên phải làm.
-
 ```
 devops-final-de003-nguyenvana/     ← Mã nguồn Spring Boot 4 (Java 21, Gradle) – CÓ SẴN
 ├── src/main/java/com/ptit/devops/task/   ← Controller, Entity, Repository
@@ -71,3 +70,4 @@ docker compose --env-file student.env ps
 curl http://localhost:<APP_PORT>/api/tasks
 docker compose --env-file student.env down
 ```
+
